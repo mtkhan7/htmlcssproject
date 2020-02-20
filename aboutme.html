@@ -2,55 +2,77 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    <title>About Me | MK</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
   </head>
   <body>
-    <!--Responsive Nav Menu-->
-    <div class="container">
-      <nav>
+    <!-- Nav Menu-->
+    <div>
+      <nav class="main-navigation">
         <a href="index.html" class="logo">MK</a>
-        <ul>
+        <ul class="menu">
           <li><a href="index.html">Home</a></li>
-          <li><a href="aboutme.html">About Me</a></li>
-          <li><a href="#">Outcome</a></li>
-          <li><a href="review.html">Review</a></li>
-          <li><a href="reference.html">Reference</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="aboutme.html">About</a></li>
+          <li class="menu-item-has-children">
+            <a href="#">Outcome</a>
+            <ul class="sub-menu">
+              <li><a href="unit-1.html">Unit-1</a></li>
+              <li><a href="unit-2.html">Unit-2</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">Review</a>
+            <ul class="sub-menu">
+              <li><a href="Review-1.html">Outcome 1</a></li>
+              <li><a href="Review-2.html">Outcome 2</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </div>
+    <!-- end nav-->
 
     <!-- content -->
-    <h1>About Me</h1>
+    <!--Banner-->
+    <div class="banner">
+      <h1 class="header-text square-bg">About Me</h1>
+    </div>
 
-    <div>
-      <p>
-        My name is Mo, I am an aspiring software developer and a huge avid fan
-        of the World Of Warcraft game. Since an early age, I have had a great
-        interest within technology and a passion to pursue a career in software
-        development.
-        <br />
-        <br />
-        I am fascinated by how technology is now a vital part in our lives and
-        is constantly changing. I have experience of working in multiple
-        positions such as providing technical support and customer service.
-        Currently, I feel I am at a level in my career where I would like to
-        further develop and challenge myself to learn software development. I
-        feel that to enhance one's knowledge, a change of environment is
-        fundamental in doing so therefore taking the opportunity to learn
-        software development at Code Nation was ideal.
-        <br />
-        <br />
-        My experience at Code Nation has been highly productive. I have gained
-        an insight in many areas such as best practices in coding and
-        development. I have actively applied my gained knowledge in coding and
-        project management into practice through completing tasks such as
-        developing a game in collaboration with other colleagues as part of a
-        team. Throughout my time I have learned about what is expected within
-        the I.T sector and opportunities available to those pursuing this
-        sector.
-      </p>
+    <div class="container">
+      <div class="row">
+        <div class="column">
+          <p>
+            <span class="name">HELLO!</span> <br />
+            I am Mo,<br />
+            I am an aspiring software developer and a huge fan of World Of
+            Warcraft game. Since an early age, I have had a great interest
+            within technology and a passion to pursue a career in software
+            developing. I am fascinated by how technology is now a vital part in
+            our lives and is constantly changing. I have experience of working
+            in multiple positions such as providing technical support and
+            customer service. Currently, I feel I am at a level in my career
+            where I would like to further develop and challenge myself to learn
+            software development. I feel that to enhance one's own knowledge, a
+            change of environment is fundamental in doing so therefore taking
+            the opportunity to learn software development at Code Nation was
+            ideal.
+            <br />
+            <img src="images/code-nation-logo.png" class="image-align" />
+            <br />
+            My experience at Code Nation has been highly productive. I have
+            gained an insight in many areas such as best practices in coding and
+            development. I have actively applied my gained knowledge in coding
+            and project management into practice through completing tasks such
+            as developing a game in collaboration with other colleagues. I have
+            developed a web page and have a better understanding of how theory
+            underpins practice regarding web development. Which will further
+            enhance my knowledge for pursuing a career in this field.
+          </p>
+        </div>
+        <div class="column">
+          <img src="images/laoptop.jpg" width="600px" height:="500px"/>
+        </div>
+      </div>
     </div>
   </body>
 </html>
